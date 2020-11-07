@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Desde aqui se puede establecer el espacio interior o padding -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <stroke android:color="@color/blue" android:width="5dp" />
+    <corners android:radius="5dp" />
+    <gradient android:type="linear"
+        android:startColor="#BFBFBF"
+        android:endColor="@color/white" />
+    <padding android:top="10dp" android:left="10dp" android:bottom="10dp" android:right="10dp" />
+</shape>
