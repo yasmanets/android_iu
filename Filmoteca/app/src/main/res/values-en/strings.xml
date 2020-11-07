@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Film Library</string>
+    <string name="createdBy">Created by Yaser El Dabete Arribas</string>
+    <string name="uaDescription">Mobile master image</string>
+    <string name="webButton">Go to website</string>
+    <string name="supportButton">Get support</string>
+    <string name="backButton">Back</string>
+    <string name="noFunctionality">Unimplemented functionality</string>
+    <string name="showAFilm">See movie A</string>
+    <string name="showBFilm">See movie B</string>
+    <string name="about">About</string>
+    <string name="editFilm">Edit movie</string>
+    <string name="saveChanges">Save</string>
+    <string name="cancelChanges">Cancel</string>
+    <string name="goMain">Go to main</string>
+    <string name="movieA">Movie A</string>
+    <string name="movieB">Movie B</string>
+    <string name="avengers">Avengers</string>
+    <string name="edited">The movie %1$s has been edited</string>
+    <string name="filmDirector">Director:</string>
+    <string name="showIMDB">Show in IMDB</string>
+    <string name="extendedVersion">Extended version</string>
+    <string name="year">Year</string>
+    <string name="lordOfTheRing1">The Lord of the Rings 1</string>
+    <string name="hobbit1">The Hobbit 1</string>
+    <string name="action_adventure">Action, Adventure</string>
+    <string name="altImage">Movie cover</string>
+    <string name="takePhoto">Take photo</string>
+    <string name="chooseImage">Select image</string>
+    <string name="filmTitle">Movie title</string>
+    <string name="filmDirectorName">Director\'s name</string>
+    <string name="imdbLink">Link to IMDB</string>
+    <string name="action">Action</string>
+    <string name="drama">Drama</string>
+    <string name="comedy">Comedy</string>
+    <string name="terror">Terror</string>
+    <string name="chooseOption">Choose an option</string>
+    <string name="comments">Comments</string>
+    <string name="withoutTitle">No title</string>
+    <string name="scifi">Sci-Fi</string>
+    <string name="menu">Menu</string>
+    <string name="addFilm">Add film</string>
+    <string name="intouchables">Intouchables</string>
+    <string name="delete">Delete</string>
+</resources>

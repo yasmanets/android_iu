@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/listFilmImage"
+        android:layout_width="50dp"
+        android:layout_height="75dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="@dimen/widgets_margin"
+        android:contentDescription="@string/altImage" />
+
+
+        <TextView
+            android:id="@+id/listFilmTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="@dimen/widgets_margin"
+            android:layout_toRightOf="@id/listFilmImage"
+            android:layout_toEndOf="@id/listFilmImage"
+            android:layout_marginLeft="@dimen/widgets_margin"
+            android:layout_marginStart="@dimen/widgets_margin"/>
+
+        <TextView
+            android:id="@+id/listFilmDirector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="20sp"
+            android:layout_toRightOf="@id/listFilmImage"
+            android:layout_toEndOf="@id/listFilmImage"
+            android:layout_below="@id/listFilmTitle"
+            android:layout_marginLeft="@dimen/widgets_margin"
+            android:layout_marginStart="@dimen/widgets_margin"/>
+</RelativeLayout>

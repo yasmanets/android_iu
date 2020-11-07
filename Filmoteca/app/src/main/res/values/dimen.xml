@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_margin">16dp</dimen>
+    <dimen name="widgets_margin">10sp</dimen>
+    <dimen name="widgets_land_margin">5sp</dimen>
+</resources>

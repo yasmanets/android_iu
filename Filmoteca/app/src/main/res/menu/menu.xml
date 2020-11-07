@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:name="@string/menu">
+    <item android:id="@+id/addFilm"
+        android:icon="@drawable/add"
+        app:showAsAction="ifRoom"
+        android:title="@string/addFilm">
+    </item>
+    <item android:id="@+id/about"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/info"
+        android:title="@string/about">
+    </item>
+</menu>
