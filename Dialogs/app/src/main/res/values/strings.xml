@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Dialogs</string>
+    <string name="text"><![CDATA[
+        Ejercicio 1. Notificaciones con Toast\n\n
+        Crea una aplicación con un campo de edición y un botón. Al apretar sobre el botón se mostrará un toast con el contenido escrito en el campo de edición. En caso de que el campo esté vacío nos avisará con: "Escribe un texto".
+        Después de cada pulsación del botón se deberá borrar el contenido del campo de edición.\n
+
+        Por último se pide personalizar el aspecto del toast de la siguiente forma: deberá de aparecer en el centro de la pantalla, tanto vertical como horizontalmente,
+        y le asignaremos un layout con el fondo en color gris claro, el texto en color negro y una imagen a la izquierda.\n
+
+        Ejercicio 2. Notificaciones con Snackbar\n\n
+        En este ejercicio vamos a crear una aplicación muy similar a la anterior, con un campo de edición y un botón. Pero en este caso, al pulsar sobre el botón, el
+        textose añadirá a una lista de tareas que aparecerá en la parte inferior. Para esta lista puedes utilizar un TextView y el método append del mismo, añadiendo un salto de línea
+        al final de cada nueva tarea. Igual que en el caso anterior, si el campo está vacío nos avisará con "Escribe un texto", y después de cada pulsación se deberá borrar el texto escrito.
+        Después de añadir una nueva tarea tendremos que mostrar un Snackbar con el texto "Tarea añadida" y el botón "Deshacer". Al pulsar sobre este botón se tendrá que eliminar la tarea añadida.\n
+
+        Ejercicio 3. Diálogos de selección\n\n
+        Para practicar con los diálogos vamos a crear una aplicación que muestre un texto y nos permita personalizar su apariencia. La aplicación constará de una única actividad
+        con un texto de ejemplo (copia dos párrafos cualesquiera) y dos botones en la parte superior: "Color" y "Tamaño". Al pulsar sobre el botón "Color" mostraremos un diálogo
+        de selección con tres opciones: "Blanco y Negro", "Negro y Blanco" o "Negro y Verde", donde el primer color se refiere al fondo y el segundo al texto. Y al pulsar sobre el
+        botón "Tamaño" mostraremos un diálogo con las opciones: "Pequeño", "Normal" y "Grande", que se corresponderán con los tamaños de 8sp, 12sp y 20sp. Desde código podemos cambiar
+        el tamaño del texto mediante la función: setTextSize(TypedValue.COMPLEX_UNIT_SP, tamaño).\n
+
+        Para poder realizar scroll cuando el texto con la lista de tareas no quepa en la pantalla tendréis que añadir un ScrollView al layout.\n
+        Es importante que el ScrollView contenga un único elemento (que en este caso puede ser todo el layout), si no nos aparecerá un error.\n
+
+        Ejercicio 4. Notificaciones en la barra de estado\n\n
+        Para practicar con las notificaciones se plantea crear una aplicación que inicie y detenga la realización de tareas ficticias. Esta aplicación contendrá dos
+        botones: "Iniciar" y "Detener". Al pulsar sobre el botón "Iniciar" se deberá de lanzar una notificación con el texto "Tareas iniciadas: 1". Si se vuelve a pulsar
+        sobre el mismo botón se irá incrementando el contador de tareas: "Tareas iniciadas: 2", "Tareas iniciadas: 3", etc. Al pulsar sobre el botón "Detener" se irán
+        descontando el número de tareas iniciadas, y al llegar a 0 se cancelará la notificación. Configura esta notificación para que al pulsar sobre la misma se abra la
+        actividad principal de la aplicación.\n
+
+        Según el modelo de dispositivo y versión de Android es posible que no se muestre la notificación al lanzarla con la aplicación abierta. Para solucionarlo hay que subir
+        el nivel de prioridad.
+    ]]>
+    </string>
+</resources>
